@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "p.h"
-#include "P.h"
+#include "P1.h"
 #include "board.h"
 #include "horse.h"
 #include "king.h"

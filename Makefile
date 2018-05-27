@@ -21,8 +21,8 @@ build/main.o: src/main.c $(SRC)
 build/p.o: src/p.c src/p.h
 	$(CXX) $(CFLAGS) src/p.c -o build/p.o
 
-build/P.o: src/P.c src/P.h
-	$(CXX) $(CFLAGS) src/P.c -o build/P.o
+build/P.o: src/P.c src/P1.h
+	$(CXX) $(CFLAGS) src/P1.c -o build/P.o
 
 build/board.o: src/board.c src/board.h
 	$(CXX) $(CFLAGS) src/board.c -o build/board.o
